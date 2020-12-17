@@ -1,0 +1,357 @@
+body {
+    background-color: #9c9f84;
+    margin: 0px;
+    height: auto;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 14px; 
+    }
+    
+    fieldset {
+        background-color: #eeeeee;
+        width: auto;
+        height: 1750px;
+      }
+      
+      legend {
+        background-color: gray;
+        color: white;
+        padding: 5;
+      }
+    #img {
+    background-color: Blue;
+    margin: 10px;
+    height: 115px;
+    font-size: 105%;
+    font-size: 1vw;
+    font-weight: 900;
+    width: auto;
+    border-radius: 5px;
+    }
+    
+    #navbar {
+    background-color: Green;
+    margin: 10px;
+    height: 70px;
+    font-size: 105%;
+    font-size: 1vw;
+    padding: 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    }
+    
+    .main {
+    background-color: rgba(10, 161, 103, 0.589);
+    padding: 10px;
+    margin-left: 10px;margin-right: 250px; 
+    margin-top: 00px;margin-bottom: 90px;
+    height: 70px;
+    text-align: left;
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-left: 100px;margin-right: 8px; 
+    margin-top: 1em;margin-bottom: 90px;
+    border-radius: 5px;
+    }
+    
+    .ackrit_club {
+    color : white;
+    background-color: black;
+    font-family: verdana;
+    transform: rotate(0deg);
+    padding: 20px;
+    font-size: 105%;
+    font-size: 1vw;
+    font-weight: 900;
+    width: 200px;
+    text-align: center;
+    float: left; 
+    margin-left: 10px;margin-right: 5px; 
+    margin-top: 1em;margin-bottom: 90px;
+    border-radius: 5px;
+    height: 250px;
+    }
+    .dance {
+    color : white;
+    background-color: black;
+    font-family: verdana;
+    transform: rotate(0deg);
+    font-size: 105%;
+    font-size: 1vw;
+    font-weight: 900;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    float: left; 
+    margin-left: 10px;margin-right: 5px; 
+    margin-top: 1em;margin-bottom: 90px;
+    border-radius: 5px;
+    height: 250px;
+    }
+    
+    
+    .ieee {
+    color : white;
+    background-color: black;
+    font-family: verdana;
+    transform: rotate(0deg);
+    font-size: 105%;
+    font-size: 1vw;
+    font-weight: 900;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    float: left; 
+    margin-left: 10px;margin-right: 5px; 
+    margin-top: 1em;margin-bottom: 90px;
+    border-radius: 5px;
+    height: 250px;
+    }
+    
+    .sport_team {
+    color : white;
+    background-color: black;
+    font-family: verdana;
+    transform: rotate(0deg);
+    font-size: 105%;
+    font-size: 1vw;
+    font-weight: 900;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    float: left; 
+    margin-left: 10px;margin-right: 5px; 
+    margin-top: 1em;margin-bottom: 90px;
+    border-radius: 5px;
+    height: 250px;
+    }
+    
+    .department_activity {
+    color : white;
+    background-color: black;
+    font-family: verdana;
+    transform: rotate(0deg);
+    font-size: 105%;
+    font-size: 1vw;
+    font-weight: 900;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    float: left; 
+    margin-left: 10px;margin-right: 5px; 
+    margin-top: 1em;margin-bottom: 90px;
+    border-radius: 5px;
+    height: 250px;
+    }
+    
+    .cat_team {
+    color : white;
+    background-color: black;
+    font-family: verdana;
+    transform: rotate(0deg);
+    font-size: 105%;
+    font-size: 1vw;
+    font-weight: 900;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    float: left; 
+    margin-left: 10px;margin-right: 5px; 
+    margin-top: 1em;margin-bottom: 90px;
+    border-radius: 5px;
+    height: 250px;
+    }
+    
+    .choice_of_department {
+    background-color:  rgba(10, 161, 103, 0.589);
+    text-align: left;
+    float: left;
+    padding: 10px;
+    width: 210px;
+    height: 200px;
+    margin-left: 100px;margin-right: 8px; 
+    margin-top: 15px;margin-bottom: 90px;
+    border-radius: 5px;
+    }    
+    .principal{
+    width: 200px;
+    float: right;
+    border-radius: 5px;
+    height: 175px;
+    margin-left: 10px;margin-right: 15px; 
+    margin-top: 0px;margin-bottom: 10px;
+    border-radius: 10px; 
+    }
+    img:hover{
+        opacity: 0.8;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .chairman {
+    width: 200px;
+    float: right;
+    border-radius: 5px;
+    height: 175px;
+    margin-left: 15px;margin-right: 10px; 
+    margin-top: 0px;margin-bottom: 10px;
+    border-radius: 10px;
+    }
+    
+    .registrar {
+    width: 200px;
+    float: right;
+    border-radius: 5px;
+    height: 175px;
+    margin-left: 10px;margin-right: 15px; 
+    margin-top: 0px;margin-bottom: 10px;
+    border-radius: 10px;
+    }
+    .kiran_sir {
+        
+        float: right;
+    width: 200px;
+    border-radius: 5px;
+    height: 175px;
+    margin-left: 10px;margin-right: 15px; 
+    margin-top: 0px;margin-bottom: 10px;
+    border-radius: 10px;
+    }
+    .kiransir
+    {
+    background-color: blue;
+    font-size:15px;
+    line-height: .5cm;
+    padding: 2px 2px 2px 2px;
+    border: white 2px solid;
+    float: right;
+    border-radius: 5px;
+    height: 350px;
+    margin-left: 10px;margin-right: 10px; 
+    margin-top: 20px;margin-bottom: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+    }
+    .drk
+    {
+    background-color: pink;
+    font-size:15px;
+    font-family:Verdana;
+    line-height: .5cm;
+    font-size: 110%;
+    text-align: left;
+    font-weight: 900;
+    padding: 150px 20px 20px 20px;
+    border: white 2px solid;
+    float: right;
+    border-radius: 5px;
+    height: 1550px;
+    margin-left: 10px;margin-right: 10px; 
+    margin-top: 20px;margin-bottom: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    }
+    .images{
+        float: right;
+        text-align: center;
+        margin-left: 10px;margin-right: -790px; 
+        margin-top: -1300px;margin-bottom: -10px;
+    }
+    .notes_link{
+        text-align: left;
+        float: left;
+        width: 210px;
+        height: 200px;
+        margin-left: 10px;margin-right: 8px; 
+        margin-top: 15px;margin-bottom: 9px;
+        border-radius: 5px;
+    }
+    #content{
+        margin-left: 50px;margin-right: 10px; 
+        margin-top: -250px;margin-bottom: 100px;
+        height: 115px;
+        font-size: 105%;
+        font-size: 1vw;
+        font-weight: 900;
+        text-align: auto;
+        float: right;
+    }
+    .teacher {
+    background-color: rgba(38, 17, 226, 0.815);
+    margin-left: 550px;margin-right: -40px; 
+    margin-top: -615px;margin-bottom: 50px;
+    padding: 20px 20px 20px 20px;
+    height: 70px;
+    text-align: left;
+    float: left;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    }
+    .students 
+    {
+    background-color:  rgba(10, 161, 103, 0.589);
+    height: 200px;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+    float: left;
+    width: 500px;
+    margin-left: -60px;margin-right: 40px; 
+    margin-top: 15px;margin-bottom: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    }
+    .rns
+    {
+    background-color: pink;
+    font-size:15px;
+    font-family:Verdana;
+    line-height: .5cm;
+    font-size: 110%;
+    text-align: left;
+    font-weight: 900;
+    padding: 20px 20px 20px 20px;
+    border: white 2px solid;
+    float: right;
+    border-radius: 5px;
+    height: 1549px;
+    margin-left: 10px;margin-right: 10px; 
+    margin-top: 20px;margin-bottom: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    }
+    .rns1
+    {
+    background-color: blue;
+    font-size:15px;
+    line-height: .5cm;
+    padding: 2px 2px 2px 2px;
+    border: white 2px solid;
+    float: right;
+    border-radius: 5px;
+    height: 350px;
+    margin-left: 10px;margin-right: 10px; 
+    margin-top: 20px;margin-bottom: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+    }
+    <!---link colour change-->
+    a:link{
+        color: rgb(41, 241, 101);
+    }
+    a:visited{
+        color:rgb(36, 92, 196);
+
+    }
+    a:hover{
+        color: rgb(189, 15, 15);
+    }
