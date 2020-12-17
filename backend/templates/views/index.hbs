@@ -64,17 +64,18 @@
 <body>
  
 <div id="container">
-<form action="login" method="POST" id="flogin">
+<form action="index1" method="POST" id="flogin">
  
 <div class="border-box">
 <h2>Login Form</h2>
 <label for="uname" id="un">Username:</label>
-<input type="text" name="user" placeholder="Enter Username" id="uname"><br/>
+<input type="text" name="username" placeholder="Enter Username" id="uname"><br/>
  
 <label for="upass" id="ps">Password:</label>
-<input type="password" name="pass" placeholder="Enter Password" id="upass"><br/>
+<input type="password" name="password" placeholder="Enter Password" id="upass"><br/>
  
-<button type="submit" value="Login"  id="submit" onClick="alert('Login Successfully')">Login</button>
+<button type="submit" value="Login"  id="submit" >Login</button>
+{{!-- <button type="submit" value="Login"  id="submit" onClick="alert('Login Successfully')" >Login</button> --}}
  
 <a href="./register">New Member</a>
 </div>

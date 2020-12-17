@@ -35,12 +35,36 @@ app.set("views",templates_path);
 // app.get("",(req,res)=>{
 //     res.render("index");
 // });
+
+//to login user
+
 app.get("/index",(req,res)=>{
     res.render("index");
 });
+app.post("index",async(req,res)=>{
+    try{
+        const username=req.body.username;
+        const password=req.body.password;
+
+        // console.log(`${username} and password is ${password}`);
+
+      const uservalue=await Register.findOne({username:username});
+        if(uservalue.password === password){
+            res.status(201).render("index");
+
+        }else{
+            res.send("username and password are not matching");
+        }
+    }catch(error){
+        res.status(400).send("invalid username or password");
+    }
+})
 // app.get("/index",(req,res)=>{
 //     res.render("index");
 // });
+
+
+//to register new candidate
 app.get("/register",(req,res)=>{
     res.render("register");
 });
