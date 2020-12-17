@@ -36,7 +36,7 @@ button:hover{
 opacity:0.8;
 }
  
-#fn,#ln,#un,#pwd,#em,#mn,#fm,#cy{
+#fn,#ln,#un,#pwd,#cpwd,#em,#mn,#fm,#cy{
 font-family:'Lato', sans-serif;
 color: gray;
 }
@@ -49,30 +49,33 @@ margin-left:30px;
  
 <body bgcolor="#E6E6FA">
  
-<form name="regi" action="register1.jsp" method="post">
+<form name="regi" action="./register" method="POST">
 <h2>Registration Form</h2>
  
 <label for="r1" id="fn">First Name :</label>
-<input type="text" name="fname" id="r1"><br/>
- 
+<input type="text" name="firstname" id="r1"><br/>
+
 <label  for="r2" id="ln">Last Name :</label>
-<input type="text" name="lname" id="r2"><br/>
+<input type="text" name="lastname" id="r2"><br/>
  
 <label  for="r3" id="un">Username :</label>
-<input type="text" name="uname" id="r3"><br/>
- 
+<input type="text" name="username" id="r3"><br/>
+
 <label  for="r4" id="pwd">Password :</label>
-<input type="password" name="pass" id="r4"><br/>
+<input type="password" name="password" id="r4"><br/>
+
+<label  for="r4" id="pwd">Confirm Password :</label>
+<input type="password" name="cpassword" id="r4"><br/>
  
 <label  for="r5" id="em">Email :</label>
 <input type="text" name="email" id="r5"><br/>
  
 <label  for="r6" id="mn">Mobile No :</label>
-<input type="text" name="mno" id="r6"><br/>
+<input type="text" name="phone" id="r6"><br/>
  
 <label for="r8" id="cy">Branch:</label>
  
-<select name="ct" id="r8">
+<select name="section" id="r8">
 <option>CSE A</option>
 <option>CSE B</option>
 <option>CSE C</option>
